@@ -1,4 +1,4 @@
-# WeDesign — landing pages + painel de leads
+# Agency DR — landing pages + painel de leads
 
 Cloudflare Worker com static assets. Duas páginas públicas, um painel privado e uma API sobre D1.
 
