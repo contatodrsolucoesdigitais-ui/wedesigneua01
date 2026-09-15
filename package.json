@@ -1,6 +1,6 @@
 {
-  "name": "wedesign-mississippi",
+  "name": "portfolio",
   "private": true,
-  "description": "Landing pages e painel de leads — Cloudflare Pages. Sem build: as Functions rodam direto do diretorio functions/.",
+  "description": "Landing pages e painel de leads — Cloudflare Worker com static assets.",
   "engines": { "node": ">=20" }
 }

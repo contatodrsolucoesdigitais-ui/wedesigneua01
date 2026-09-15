@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-15",
+
+  // Os arquivos estaticos sao servidos primeiro. O Worker so roda
+  // para caminhos que nao batem com um arquivo — ou seja, /api/*.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+
+  // Binding do banco. Ja criado na conta, nao precisa mexer no painel.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "wedesign-leads",
+      "database_id": "aa6c9b1f-133e-4ff3-8991-2665c2f43daf"
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+}

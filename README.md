@@ -1,6 +1,6 @@
 # WeDesign — landing pages + painel de leads
 
-Cloudflare Pages. Duas páginas públicas, um painel privado e uma API sobre D1.
+Cloudflare Worker com static assets. Duas páginas públicas, um painel privado e uma API sobre D1.
 
 | Rota | O que é | Acesso |
 |---|---|---|
@@ -10,11 +10,12 @@ Cloudflare Pages. Duas páginas públicas, um painel privado e uma API sobre D1.
 | `/api/lead` | Recebe o formulário (POST) | pública |
 | `/api/leads` | Lê e atualiza leads (GET / PATCH) | header `x-painel-key` |
 
-Sem build. As Functions em `functions/` são detectadas e publicadas pela própria Cloudflare.
+Sem build. O Worker em `src/index.js` trata `/api/*`; todo o resto sai de `public/`.
+O binding do D1 vive em `wrangler.jsonc` — não precisa configurá-lo no painel.
 
 ---
 
-## Banco de dados — já criado
+## Banco de dados — já criado e já vinculado
 
 | | |
 |---|---|
