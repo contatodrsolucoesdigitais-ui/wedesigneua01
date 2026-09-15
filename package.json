@@ -1,11 +1,6 @@
 {
-  "name": "mississippi-landing",
+  "name": "wedesign-mississippi",
   "private": true,
-  "type": "module",
-  "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "@neondatabase/serverless": "^1.1.0"
-  }
+  "description": "Landing pages e painel de leads — Cloudflare Pages. Sem build: as Functions rodam direto do diretorio functions/.",
+  "engines": { "node": ">=20" }
 }

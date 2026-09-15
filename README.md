@@ -1,109 +1,100 @@
-# Landing pages + painel de leads — Mississippi
+# WeDesign — landing pages + painel de leads
 
-Duas páginas públicas e um painel privado, num único projeto Vercel.
+Cloudflare Pages. Duas páginas públicas, um painel privado e uma API sobre D1.
 
 | Rota | O que é | Acesso |
 |---|---|---|
-| `/` | Landing page — empreiteiras | pública |
-| `/auto-shops` | Landing page — oficinas | pública |
+| `/` | Landing — empreiteiras | pública |
+| `/auto-shops` | Landing — oficinas | pública |
 | `/painel` | Painel de leads | senha |
 | `/api/lead` | Recebe o formulário (POST) | pública |
 | `/api/leads` | Lê e atualiza leads (GET / PATCH) | header `x-painel-key` |
 
----
-
-## ⚠️ Antes de qualquer coisa: plano Pro
-
-O plano **Hobby da Vercel proíbe uso comercial**. Estas páginas vendem um serviço, então
-se enquadram — e a Vercel derruba deployment em violação **sem aviso prévio**.
-
-**Assine o Vercel Pro (US$ 20/mês) antes de apontar o domínio.** O mesmo time Pro cobre
-também os sites dos clientes, então esses US$ 20 são o custo de hospedagem que já estava
-no orçamento, não um extra.
-
-**Não ative o "Password Protection" da Vercel** para proteger o painel: custa mais US$ 20/mês
-por projeto e tranca o deployment inteiro — as duas landing pages parariam de abrir para
-os prospects. O painel já tem autenticação própria.
+Sem build. As Functions em `functions/` são detectadas e publicadas pela própria Cloudflare.
 
 ---
 
-## Deploy em 6 passos
+## Banco de dados — já criado
 
-### 1. Suba para um repositório Git
-```bash
-git init && git add . && git commit -m "landing pages + painel"
-git branch -M main
-git remote add origin <seu-repo>
-git push -u origin main
-```
+| | |
+|---|---|
+| Nome | `wedesign-leads` |
+| UUID | `aa6c9b1f-133e-4ff3-8991-2665c2f43daf` |
+| Região | ENAM (leste dos EUA) |
+| Tabela | `leads`, com índice em `created_at` |
 
-### 2. Importe na Vercel
-Vercel → **Add New → Project** → selecione o repositório.
-Framework Preset: **Other**. Build Command: deixe vazio. Output Directory: deixe vazio.
+Não precisa rodar migration. Só falta fazer o **binding** no projeto (passo 3 abaixo).
 
-### 3. Crie o banco (Neon)
-No projeto: **Storage → Create Database → Neon (Postgres)** → free tier.
-A Vercel injeta a variável `DATABASE_URL` sozinha. Não precisa copiar nada.
+---
 
-> A Vercel descontinuou o Postgres e o KV próprios em dez/2024. Hoje é Neon (SQL) ou
-> Upstash (Redis) pelo Marketplace. Aqui usamos Neon.
+## Publicar
 
-A tabela `leads` é criada sozinha na primeira submissão. Não precisa rodar migration.
+### 1. Criar o projeto
+`dash.cloudflare.com` → **Workers & Pages → Create → Pages → Connect to Git**
 
-### 4. Configure as variáveis de ambiente
-**Settings → Environment Variables**, nos três ambientes:
+Autorize a conta `contatodrsolucoesdigitais-ui` e escolha **`wedesigneua01`**.
 
-| Variável | Obrigatória | Para que serve |
-|---|---|---|
-| `DATABASE_URL` | sim | injetada pelo Neon no passo 3 |
-| `PANEL_PASSWORD` | sim | senha do `/painel`. Use algo longo — é a única tranca |
-| `RESEND_API_KEY` | não | avisa por e-mail a cada lead novo |
-| `NOTIFY_EMAIL` | não | para onde vai o aviso |
-| `NOTIFY_FROM` | não | remetente verificado no Resend |
+### 2. Build settings
+| Campo | Valor |
+|---|---|
+| Framework preset | **None** |
+| Build command | **vazio** |
+| Build output directory | **`/`** |
 
-Sem as três últimas o site funciona igual — só não manda e-mail, e os leads
-aparecem no painel do mesmo jeito.
+### 3. Binding do D1 — obrigatório
+**Settings → Bindings → Add → D1 database**
 
-### 5. Aponte o domínio
-**Settings → Domains**. Sem domínio próprio o link fica `*.vercel.app`, que
-**não vende** — nenhum dono de empreiteira confia num link assim numa ligação fria.
-Isso é parte da entrega, não detalhe.
+| | |
+|---|---|
+| Variable name | **`DB`** — exatamente assim, o código procura por esse nome |
+| D1 database | `wedesign-leads` |
 
-### 6. Teste antes de mandar para alguém
-1. Abra `/` e envie o formulário com dados de teste
-2. Abra `/painel`, entre com a senha, confirme que o lead apareceu
-3. Mude o status e escreva uma anotação — recarregue e veja se persistiu
-4. Baixe o CSV
+Adicione em **Production** e **Preview**.
+
+### 4. Senha do painel — obrigatório
+**Settings → Variables and Secrets → Add → Secret**
+
+| | |
+|---|---|
+| Name | `PANEL_PASSWORD` |
+| Value | a senha que você escolher — use algo longo |
+
+Sem ela o `/api/leads` nega tudo e o painel não abre.
+
+### 5. Redeploy
+Binding e secret novos só valem em deployment novo. **Deployments → Retry deployment**.
+
+### Opcional — aviso por e-mail a cada lead
+Três secrets: `RESEND_API_KEY`, `NOTIFY_EMAIL`, `NOTIFY_FROM`. Sem eles tudo funciona igual, os leads só aparecem no painel.
+
+---
+
+## Testar antes de divulgar
+
+1. Abrir `/` e enviar o formulário com dados de teste
+2. Abrir `/painel`, entrar com a senha, confirmar que o lead apareceu
+3. Mudar o status e escrever uma anotação — recarregar e ver se persistiu
+4. Baixar o CSV
 
 ---
 
 ## O painel
 
-Login por senha, sessão guardada só na aba (`sessionStorage`) — fechou o navegador,
-pede de novo.
+Login por senha, sessão só na aba. Cinco contadores no topo, filtros por nicho, status editável na linha (novo → ligado → reunião → fechado / perdido), anotação por lead, exportação CSV e recarga automática a cada 60 segundos.
 
-- Cinco contadores no topo: total, novos, reunião, fechados, últimos 7 dias
-- Filtros por nicho e por "só novos"
-- Status editável direto na linha: novo → ligado → reunião → fechado / perdido
-- Anotação por lead, salva ao sair do campo
-- Exportação CSV do que estiver filtrado
-- Recarrega sozinho a cada 60 segundos
+## Se a API cair
+
+O formulário não perde o lead: se `/api/lead` falhar, ele monta um e-mail com os campos preenchidos e abre o cliente do visitante, com `[LEAD]` no assunto.
 
 ## Anti-spam
 
-Campo honeypot escondido (`website`) nos dois formulários. Bot preenche, humano não vê —
-submissão com ele preenchido é descartada silenciosamente, com resposta 200 para o bot
-não perceber.
+Campo honeypot escondido (`website`) nos dois formulários. Submissão com ele preenchido é descartada em silêncio, com resposta 200 para o bot não perceber.
 
 ---
 
-## Pendências antes de divulgar
+## Pendência
 
-- [ ] Trocar `Your company` pela marca — aparece no topo, no FAQ e no rodapé das duas páginas
-- [ ] Trocar `your town` na resposta do FAQ "Who are you and where are you out of?"
-- [ ] Assinar o Vercel Pro
-- [ ] Apontar o domínio próprio
-- [ ] Definir `PANEL_PASSWORD`
+- [ ] Trocar `your town` na resposta do FAQ *"Who are you and where are you out of?"* — último placeholder, nas duas páginas
 
 ## Estrutura
 
@@ -112,10 +103,11 @@ não perceber.
 ├── index.html          landing — empreiteiras
 ├── auto-shops.html     landing — oficinas
 ├── painel.html         painel de leads
+├── brand/              logo, favicon e variantes
 ├── previews/           screenshots dos 10 sites do portfólio
-├── api/
-│   ├── lead.js         POST público — grava o lead
-│   └── leads.js        GET/PATCH autenticado — lê e atualiza
-├── package.json
-└── vercel.json         cleanUrls, headers de segurança, cache das imagens
+├── functions/api/
+│   ├── lead.js         POST público — grava no D1
+│   └── leads.js        GET/PATCH autenticado
+├── _headers            headers de segurança e cache
+└── package.json        sem dependências: as Functions usam só a API da plataforma
 ```
