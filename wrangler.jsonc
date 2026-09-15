@@ -1,5 +1,5 @@
 {
-  "name": "wedesigneua01",
+  "name": "portifoliowebdesign",
   "main": "src/index.js",
   "compatibility_date": "2026-09-15",
 
@@ -10,14 +10,16 @@
     "binding": "ASSETS"
   },
 
-  // Binding do banco. Ja criado na conta, nao precisa mexer no painel.
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "wedesign-leads",
-      "database_id": "aa6c9b1f-133e-4ff3-8991-2665c2f43daf"
-    }
-  ],
+  // O binding do D1 NAO fica aqui, de proposito.
+  //
+  // O banco precisa existir na MESMA conta em que o Worker publica
+  // (f5d7ba04ca3a512a09b572b4c17c7d17). Declarar um database_id de
+  // outra conta quebra o deploy — foi o que derrubou o build #55719216.
+  //
+  // Crie o banco pelo painel dessa conta e faca o binding em
+  // Settings > Bindings, com o nome de variavel exatamente "DB".
+  // src/index.js ja trata a ausencia do binding: o formulario cai
+  // para e-mail em vez de mostrar erro ao visitante.
 
   "observability": {
     "enabled": true
