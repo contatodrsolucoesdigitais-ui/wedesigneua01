@@ -49,7 +49,7 @@ rascunho custa pouco para você e derruba o maior medo do comprador.
 | Freelancer avançado / agência | R$ 2.500–5.000+ **[dado]** | Caro demais para autônomo |
 | Plataformas de diretório (tipo Doctoralia) | Mensalidade `[AJUSTE]` | Ela aparece ao lado de concorrentes |
 
-**Vão [análise]:** qualidade de intermediário (layout próprio + texto pronto) com **prazo de 48 h** e preço perto do
+**Vão [análise]:** qualidade de intermediário (layout próprio + texto pronto) com **prazo de até 7 dias** (48 h no futuro, quando o processo estiver padronizado) e preço perto do
 teto do iniciante. A IA é o que torna isso viável, mas é a sua vantagem de custo, **não** o argumento de venda.
 
 ---
@@ -60,7 +60,7 @@ teto do iniciante. A IA é o que torna isso viável, mas é a sua vantagem de cu
 |---|---|---|---|
 | Resultado sonhado | 3/10 | "Site de 6 blocos" | Falar de pacientes chegando pelo WhatsApp, de passar credibilidade, de aparecer no Google |
 | Probabilidade percebida | 4/10 | 1 case | Mostrar o site da psicóloga (com autorização) e o rascunho do site *dela* |
-| Tempo até o resultado | 8/10 (potencial) | Com Claude você entrega rápido | Prometer prazo explícito: "no ar em 48 h" |
+| Tempo até o resultado | 8/10 (potencial) | Com Claude você entrega rápido | Prometer prazo explícito e cumprível: "rascunho em 3 dias úteis, no ar em até 7 dias" |
 | Esforço e sacrifício | 5/10 | Preço baixo | Ela não escrever nada (você escreve o texto), pagar só depois de ver |
 
 A alavanca mais fraca é **resultado sonhado**: a oferta não diz para que serve o site.
@@ -101,7 +101,7 @@ cada nicho antes de escrever.** Bem feito, isso vira argumento: "site dentro das
 ## 6. A oferta melhorada
 
 ```
-SITE PROFISSIONAL EM 48 HORAS — para psicólogos que atendem por indicação e Instagram
+SITE PROFISSIONAL EM ATÉ 7 DIAS — para psicólogos que atendem por indicação e Instagram
 
 Quando alguém recebe a sua indicação, a primeira coisa que faz é procurar seu nome no Google.
 O seu site é o que essa pessoa vai encontrar.
@@ -112,9 +112,9 @@ O que você recebe:
 • Texto escrito por nós, respeitando as normas de publicidade do CFP — você só aprova
 • Domínio próprio (seunome.com.br) registrado no SEU nome, com o primeiro ano incluso
 • Funciona perfeitamente no celular e carrega rápido
-• No ar em 48 horas depois da sua aprovação
+• No ar em até 7 dias depois da sua aprovação
 
-Você vê antes de pagar: mandamos o rascunho do SEU site em 24 h, sem custo.
+Você vê antes de pagar: mandamos o rascunho do SEU site em até 3 dias úteis, sem custo.
 Gostou? Paga e publicamos. Não gostou? Não paga nada.
 
 Essencial: R$ 597 à vista ou 3x no cartão
@@ -129,7 +129,7 @@ Manutenção (opcional): R$ 59/mês — alterações por WhatsApp, renovação d
 - **Nicho no título:** quem é do nicho se reconhece, e você prospecta com uma lista única e um roteiro único.
 - **Rascunho grátis antes de pagar:** é a reversão de risco mais forte possível, e com Claude custa pouco para você.
   Faça rascunho só para quem respondeu e confirmou interesse, para não virar trabalho de graça.
-- **48 h:** transforma sua vantagem de produção em benefício que o cliente sente.
+- **Prazo de 7 dias:** o mercado fala em 2 a 4 semanas; um prazo curto e cumprido é diferencial. Só prometa 48 h quando o processo estiver padronizado (modelo por nicho, briefing, prompt), talvez como adicional pago.
 - **Domínio no nome dela:** mata o medo de "ficar refém".
 - **Dois pacotes fechados** em vez de "a partir de" e blocos: decisão mais rápida, e o Completo faz o Essencial
   parecer barato (ancoragem).
@@ -155,7 +155,7 @@ Manutenção (opcional): R$ 59/mês — alterações por WhatsApp, renovação d
 |---|---|---|---|
 | Indicação perdida | "Te indicaram. A pessoa pesquisou seu nome. O que ela achou?" | Quem vive de indicação | Inconsciente |
 | Fim do Linktree | "Seu paciente merece mais que um Linktree." | Quem já usa Instagram | Consciente do problema |
-| Velocidade sem risco | "Seu site no ar em 48 h. Você vê antes de pagar." | Quem já quer um site | Consciente da solução |
+| Velocidade sem risco | "Seu site pronto em até 7 dias. Você vê antes de pagar." | Quem já quer um site | Consciente da solução |
 | Normas | "Site profissional dentro das normas do CFP." | Quem tem receio do conselho | Consciente da solução |
 
 ---
@@ -188,6 +188,8 @@ Manutenção (opcional): R$ 59/mês — alterações por WhatsApp, renovação d
 > CFP. Posso montar um rascunho do seu, sem custo, para você ver como ficaria? Se não gostar, não paga nada.
 
 ---
+
+> Versão final das ofertas (pacotes, embalagens e mensagens de WhatsApp): ver `ofertas.md`.
 
 ## Próximo passo
 
