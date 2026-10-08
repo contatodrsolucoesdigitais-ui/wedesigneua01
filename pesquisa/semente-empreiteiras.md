@@ -37,9 +37,9 @@ What's included:
 - "If we stop answering, you stop paying."
 
 **Price:** not shown on the page. The page says "less than one job, no big check up front".
-- Setup fee: [AJUSTE — e.g. $0 / $297 / $497]
-- Monthly: [AJUSTE — e.g. $99 / $149 / $197 per month]
-- Contract: [AJUSTE — e.g. month to month / 12 months minimum]
+- Setup fee: $0   [AJUSTE — variante A do teste; troque para B ou C nas rodadas de preço]
+- Monthly: $149 per month
+- Contract: none — month to month, cancel by text message
 
 **Main differentiator (as the seller sees it):** the contractor does nothing. No software, no login, no meetings.
 And the agency keeps the site alive — unlike the "guy who built one years ago, took the check and disappeared".
@@ -56,7 +56,7 @@ And the agency keeps the site alive — unlike the "guy who built one years ago,
 - **Seasonality:** hurricane season runs June to November; storm damage brings a burst of roofing and repair work
   and also a burst of out-of-state "storm chaser" crews. Local contractors resent storm chasers and lean on
   "local, licensed, been here 20 years" as their pitch. Winter is slower for exterior trades. Spring is busy.
-- **Moment:** [AJUSTE — e.g. "October 2026, end of hurricane season, contractors planning for a slower winter".]
+- **Moment:** October 2026, end of hurricane season, contractors planning for a slower winter.
 - **Licensing:** Mississippi requires a state license for residential work above certain thresholds; licenses and
   insurance are a trust signal homeowners ask about.
 - **How homeowners find a contractor today:** a referral from a neighbor or church, then a Google search of the
@@ -112,10 +112,20 @@ And the agency keeps the site alive — unlike the "guy who built one years ago,
 
 ---
 
-## 4. Competitors and alternatives *(approx. — verify)*
+## 4. Competitors and alternatives (researched October 2026; third-party figures)
 
 | Alternative | What it is | Typical cost |
 |---|---|---|
+| Do nothing | Word of mouth + Facebook page + Google listing without a website | $0 |
+| DIY builder (Wix, Squarespace, GoDaddy) | Owner builds it himself | $10–50/month + his time |
+| Local freelancer / nephew | One-time build, little or no maintenance | $800–3,000 one time (approx.) |
+| Basic managed roofing sites | Site + hosting + support | ~$99 down + $99/month |
+| Contractor marketing agencies (Footbridge Media, Results Digital-type) | Site + marketing system | ~$249–250/month |
+| Lead marketplaces (Angi, HomeAdvisor, Thumbtack) | Shared leads sold to 3–8 contractors; ~$300 annual fee | $40–120 per lead; FTC fined HomeAdvisor $7.2M in 2023 over lead-quality claims |
+| Directory/marketing bundles (Thryv, Hibu) | Site + listings + ads | Thryv $244–499/month; Hibu ~$449/month entry, reports from $150 to $3,500; 6–12 month contracts, many complaints about auto-renewal and cancellation |
+| Big contractor agencies (Scorpion-type) | Site + SEO + ads | $1,500–5,000+/month (approx.) |
+
+---|---|---|
 | Do nothing | Word of mouth + Facebook page + Google listing without a website | $0 |
 | DIY builder (Wix, Squarespace, GoDaddy) | Owner builds it himself | $15–40/month + his time |
 | Local freelancer / nephew | One-time build, little or no maintenance | $800–3,000 one time |

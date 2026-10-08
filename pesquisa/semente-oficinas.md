@@ -36,9 +36,9 @@ What's included:
 - "If we stop answering, you stop paying."
 
 **Price:** not shown on the page. The page says "less than a slow week, no big check up front".
-- Setup fee: [AJUSTE — e.g. $0 / $297 / $497]
-- Monthly: [AJUSTE — e.g. $99 / $149 / $197 per month]
-- Contract: [AJUSTE — e.g. month to month / 12 months minimum]
+- Setup fee: $0   [AJUSTE — variante A do teste; troque para B ou C nas rodadas de preço]
+- Monthly: $149 per month
+- Contract: none — month to month, cancel by text message
 
 ---
 
@@ -50,7 +50,7 @@ What's included:
   1 to 8 bays. Many are second-generation family businesses.
 - **Seasonality:** summer = A/C repairs and overheating; winter = batteries and tires; February–April = tax refund
   season, when customers finally fix what they postponed. Shops get slow in late fall and in January.
-- **Moment:** [AJUSTE — e.g. "October 2026, shops heading into the slower months".]
+- **Moment:** October 2026, shops heading into the slower months.
 - **Industry pressure:** dealers pushing service plans, newer cars under warranty going to dealers, national chains
   (Firestone, Midas, Take 5, Valvoline, Christian Brothers) opening in growing towns, technician shortage.
 - **How drivers find a shop today:** "mechanic near me" on Google Maps while stuck, a Facebook group question,
@@ -99,10 +99,19 @@ What's included:
 
 ---
 
-## 4. Competitors and alternatives *(approx. — verify)*
+## 4. Competitors and alternatives (researched October 2026; third-party figures)
 
 | Alternative | What it is | Typical cost |
 |---|---|---|
+| Do nothing | Google listing + Facebook page | $0 |
+| Shop management software website add-on | Template site from the shop software vendor | often bundled or low cost (approx.) |
+| DIY builder (Wix, GoDaddy) | Owner or family builds it | $10–50/month + time |
+| Shopgenie | Texting, reviews, reminders + basic website | Lite $345/month, Pro $495/month |
+| Kukui | All-in-one auto shop marketing | from ~$499/month, price not published |
+| Directory/marketing bundles (Thryv, Hibu) | Site + listings + ads | Thryv $244–499/month; Hibu ~$449/month entry; 6–12 month contracts, many cancellation complaints |
+| Local freelancer / nephew | One-time build | $500–2,500 one time (approx.) |
+
+---|---|---|
 | Do nothing | Google listing + Facebook page | $0 |
 | Shop management software website add-on | Template site from the shop software vendor | $0–100/month on top of the software |
 | DIY builder (Wix, GoDaddy) | Owner or family builds it | $15–40/month + time |

@@ -7,6 +7,7 @@ oferta (preço, promessa, objeções) e sair com 2 ou 3 versões para validar co
 |---|---|
 | `semente-empreiteiras.md` | Documento semente do nicho empreiteiras — sobe no MiroFish |
 | `semente-oficinas.md` | Documento semente do nicho oficinas — sobe no MiroFish |
+| `analise-oferta.md` | Análise com frameworks (Hormozi, Schwartz, preço, objeções), pesquisa de concorrentes, entrevistas simuladas e conceitos de anúncio — **comece por aqui** |
 | este README | Instalação, perguntas de previsão, plano de testes e planilha de comparação |
 
 As sementes estão em **inglês** de propósito: o público simulado é americano e a copy testada é em inglês.
@@ -18,13 +19,13 @@ Se os agentes lerem a copy traduzida, vão reagir a outro texto. O relatório vo
 
 Nas duas sementes, troque:
 
-1. **Preço**: setup, mensalidade e contrato. Sem preço a simulação não tem como dizer se está caro.
+1. **Preço**: já preenchido com a variante A da análise (US$ 0 + US$ 149/mês, sem contrato). Troque se o seu preço
+   real for outro.
 2. **Onde a equipe está de verdade.** O telefone é (316), código de Wichita, Kansas, e o FAQ diz "working across
    Mississippi". Um dono desconfiado percebe isso. Se a semente esconder, a simulação não testa essa objeção — e ela
    provavelmente é uma das que mais pesam no mundo real.
-3. **O anúncio** que você vai rodar de fato (deixei um rascunho em cada semente).
-4. **O momento** (mês, situação do mercado).
-5. Confira os preços de concorrentes marcados *(approx.)* — são estimativas, não dados levantados.
+3. **O anúncio** que você vai rodar de fato (deixei um rascunho em cada semente; conceitos na seção 7 da análise).
+4. Os concorrentes já vêm com preços pesquisados (fontes na análise); os marcados *(approx.)* são estimativas.
 
 Formatos aceitos pelo MiroFish: `.md`, `.txt`, `.pdf`. Rode **um nicho por simulação** — misturar os dois
 gera personas híbridas que não existem.
