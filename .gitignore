@@ -10,7 +10,8 @@ node_modules/
 .vercel/
 
 # ferramentas locais
-.claude/
+.claude/*
+!.claude/skills/
 __pycache__/
 *.pyc
 
