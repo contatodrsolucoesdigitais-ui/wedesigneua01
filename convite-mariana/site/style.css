@@ -339,16 +339,17 @@ body[data-page="confirmacao"] .hint { bottom: 5.5%; }
 }
 
 /* ---------- telas largas (computador, tablet deitado) ----------
-   O convite vira um cartão centralizado com a arte nítida; a mesma imagem,
-   desfocada e escura, preenche o resto da tela. No celular em pé nada muda. */
+   O convite vira um cartão centralizado sobre fundo azul-noite liso. No celular em pé nada muda. */
 @media (min-aspect-ratio: 4/5) {
-  .stage .bg { filter: blur(22px) brightness(.42) saturate(1.15); inset: -6%; }
+  .stage { background: var(--navy); }
+  .stage .bg { display: none; }
+  #local .stage::before { display: none; }
   .stage .twinkles { display: none; }
   .col {
     height: min(calc(100% - 7vh), calc(100vw * 763 / 336));
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0 30px 90px rgba(0, 0, 0, .7), 0 0 0 1px rgba(220, 189, 138, .45), 0 0 60px rgba(230, 200, 150, .12);
+    box-shadow: 0 0 0 1px rgba(220, 189, 138, .45);
   }
   .col::before {
     content: ""; position: absolute; inset: 0; z-index: -1;
