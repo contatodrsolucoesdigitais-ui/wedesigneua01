@@ -297,6 +297,10 @@ body[data-page="confirmacao"] .hint { bottom: 5.5%; }
 .page.out .at { animation: out .7s var(--ease-io) calc(var(--o, 0) * 55ms) forwards; }
 @keyframes out { to { opacity: 0; transform: translateY(calc(-50% - 4cqw)); filter: blur(8px); } }
 
+/* tela do local: a fachada fica embaixo, sem deslizar o enquadramento */
+#local .bg { background-position: 50% 100%; transform-origin: 50% 80%; }
+#local.in .bg { animation: none; }
+
 /* fundo sempre em movimento lento */
 .in .bg { animation: drift 16s ease-in-out 2s infinite alternate; }
 @keyframes drift { from { background-position: 50% 50%; } to { background-position: 46% 54%; } }
