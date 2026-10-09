@@ -21,6 +21,17 @@ Versão final para anúncio e WhatsApp. Base: `analise-oferta.md`. Marcação: *
 | Domínio próprio (seunome.com.br) | Não incluso | `[AJUSTE: incluir? sugestão: sim, 1º ano]` |
 | Prazo | Rascunho em até 3 dias úteis; no ar em até 7 dias | `[AJUSTE: ex. até 10 dias]` |
 
+### As duas ofertas em cada nicho
+
+As duas ofertas valem para **os dois nichos**. O que muda é como cada uma é apresentada:
+
+| | **Psicólogos** | **Geral (qualquer negócio)** |
+|---|---|---|
+| **Site Pronto (R$ 497)**, no anúncio | "Seu site profissional, dentro das normas do CFP: quem recebe sua indicação te encontra e confia antes da 1ª sessão." | "Seu site profissional: quem ouve falar de você te encontra no Google e vê que você é sério." |
+| Blocos sugeridos (máx. 8) | Topo com foto e CRP · Sobre mim · Abordagem · Como funciona a terapia (online/presencial) · Para quem é · Perguntas frequentes · Local · Contato | Topo com promessa · Serviços · Por que nós · Fotos do trabalho · Avaliações reais · Área atendida · Perguntas frequentes · Contato |
+| **Presença Completa (R$ 1.300)**, só na conversa | "Site + site bio no Instagram + **formulário de pré-agendamento** (o paciente já diz o que procura e o horário que prefere) + **painel** com todos os pedidos. Formulário seguro, dentro da LGPD." | "Site + site bio no Instagram + **formulário de orçamento** (o cliente já diz o que precisa) + **painel** com todos os pedidos de orçamento organizados." |
+| Resultado que se vende | Mais pacientes chegando já decididos, sem repetir explicações no WhatsApp | Mais pedidos de orçamento, sem perder contato no meio das conversas |
+
 ### Regras internas (não vão no anúncio; são ditas na conversa, **antes do pagamento**)
 - **Máximo de 8 blocos** (seções) na landing page.
 - **Hospedagem:** Cloudflare, sem mensalidade.
@@ -188,14 +199,30 @@ não para concluir que "não vende". Se um conjunto se destacar até o dia 3, pa
 > 2) Cidade/região que você atende
 > 3) Você usa Instagram para vender? Me manda o @
 
-**Entrega do rascunho + apresentação das duas ofertas (mostre a maior primeiro):**
+**Entrega do rascunho + apresentação das duas ofertas: psicólogos (mostre a maior primeiro):**
 > [Nome], ficou pronto o rascunho do seu site: [link]. Dá uma olhada no celular!
 >
 > Tenho duas formas de colocar no ar:
 >
 > 🔹 **Presença Completa: R$ 1.300 (ou 10x de R$ 130)**
-> Site + site bio para o seu Instagram (no lugar do Linktree) + formulário personalizado + painel onde você vê todos
-> os contatos organizados. É para quem quer que o Instagram vire cliente sem perder nenhum contato.
+> Site + site bio para o seu Instagram (no lugar do Linktree) + formulário de pré-agendamento, em que o paciente já
+> conta o que procura e o melhor horário + painel onde você vê todos os pedidos organizados. Formulário seguro,
+> dentro da LGPD. É para quem quer que o Instagram vire paciente sem repetir as mesmas explicações no WhatsApp.
+>
+> 🔹 **Site Pronto: R$ 497**
+> Só o site, como você está vendo no rascunho.
+>
+> Qual faz mais sentido para você agora?
+
+**Entrega do rascunho + apresentação das duas ofertas: geral (mostre a maior primeiro):**
+> [Nome], ficou pronto o rascunho do site da [empresa]: [link]. Dá uma olhada no celular!
+>
+> Tenho duas formas de colocar no ar:
+>
+> 🔹 **Presença Completa: R$ 1.300 (ou 10x de R$ 130)**
+> Site + site bio para o seu Instagram (no lugar do Linktree) + formulário de orçamento, em que o cliente já diz o
+> que precisa + painel onde você vê todos os pedidos organizados. É para quem quer que o Instagram vire cliente
+> sem perder nenhum contato.
 >
 > 🔹 **Site Pronto: R$ 497**
 > Só o site, como você está vendo no rascunho.
