@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <style><![CDATA[
+      .serif { font-family: 'Cormorant Garamond','Cinzel','Times New Roman',serif; letter-spacing: 10px; }
+      .serif-tight { font-family: 'Cormorant Garamond','Playfair Display','Times New Roman',serif; letter-spacing: 4px; }
+      .script { font-family: 'Great Vibes','Allura','Segoe Script',cursive; }
+      .small { font-family: 'Cormorant Garamond','Times New Roman',serif; letter-spacing: 7px; }
+      .body { font-family: 'Cormorant Garamond','Georgia',serif; }
+      .gold { fill: #f0d2a3; }
+      .cream { fill: #fff6e8; }
+      .blueLine { fill: none; stroke: #0c57a3; stroke-width: 2.2; opacity: .72; }
+      .goldLine { fill: none; stroke: #efd2a2; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#103d79" stop-opacity="0.58"/>
+      <stop offset="0.55" stop-color="#061d3a" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#020915" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000714"/>
+      <stop offset="0.28" stop-color="#083064"/>
+      <stop offset="0.52" stop-color="#010715"/>
+      <stop offset="0.78" stop-color="#0a3a76"/>
+      <stop offset="1" stop-color="#00030b"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+<g id="fundo"><rect width="1080" height="1920" fill="#020917"/><rect width="1080" height="1920" fill="url(#blueGlow)"/><circle cx="940" cy="190" r="120" fill="#e9bd78" opacity=".13" filter="url(#softBlur)"/><circle cx="120" cy="1680" r="140" fill="#114d95" opacity=".25" filter="url(#softBlur)"/></g>
+<g id="decoracao"><g id="moldura" opacity=".95">
+  <path class="goldLine" d="M64 70 H1016 M1016 70 V1848 M1016 1848 H64 M64 1848 V70"/>
+  <path class="goldLine" d="M64 132 Q112 128 116 78 M948 70 Q956 124 1016 132 M1016 1786 Q958 1792 948 1848 M116 1848 Q112 1792 64 1786"/>
+</g><line class="goldLine" x1="330" y1="480" x2="475" y2="480"/><path d="M540 467 L553 480 L540 493 L527 480 Z" fill="#efd2a2"/><line class="goldLine" x1="605" y1="480" x2="750" y2="480"/><line class="goldLine" x1="330" y1="725" x2="475" y2="725"/><path d="M540 712 L553 725 L540 738 L527 725 Z" fill="#efd2a2"/><line class="goldLine" x1="605" y1="725" x2="750" y2="725"/><path class="goldLine" transform="translate(540 1620) scale(0.62)" d="M0 10 C-30 -18 -70 20 0 78 C70 20 30 -18 0 10 Z"/><g class="goldLine"><rect x="515" y="570" width="50" height="55" rx="8"/><line x1="515" y1="590" x2="565" y2="590"/><line x1="528" y1="558" x2="528" y2="580"/><line x1="552" y1="558" x2="552" y2="580"/></g><g class="goldLine"><circle cx="540" cy="858" r="28"/><path d="M526 858 L536 868 L556 842"/></g><rect x="280" y="1185" width="520" height="86" rx="43" fill="#efd2a2"/></g><image href="qr_code_recortado_original.png" x="360" y="900" width="360" height="360" preserveAspectRatio="xMidYMid meet"/><g id="tipografia" text-anchor="middle">
+  <text class="serif cream" x="540" y="330" font-size="47">CONFIRME</text>
+  <text class="serif cream" x="540" y="392" font-size="47">SUA PRESENÇA</text>
+  <text class="small cream" x="540" y="650" font-size="29">ATÉ O DIA</text>
+  <text class="serif-tight cream" x="540" y="710" font-size="52">25 DE OUTUBRO</text>
+  <text class="small cream" x="540" y="1118" font-size="26">ESCANEIE O QR CODE</text>
+  <text class="small cream" x="540" y="1155" font-size="26">OU CLIQUE NO LINK</text>
+  <text x="540" y="1240" fill="#0b1a2a" font-size="42" font-family="Georgia,serif" font-weight="700">wa.link/d4x37m</text>
+  <text class="script gold" x="540" y="1455" font-size="90">Será uma alegria</text>
+  <text class="script gold" x="540" y="1540" font-size="90">ter você comigo!</text>
+</g>
+
+</svg>

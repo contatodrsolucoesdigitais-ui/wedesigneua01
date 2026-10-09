@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <style><![CDATA[
+      .serif { font-family: 'Cormorant Garamond','Cinzel','Times New Roman',serif; letter-spacing: 10px; }
+      .serif-tight { font-family: 'Cormorant Garamond','Playfair Display','Times New Roman',serif; letter-spacing: 4px; }
+      .script { font-family: 'Great Vibes','Allura','Segoe Script',cursive; }
+      .small { font-family: 'Cormorant Garamond','Times New Roman',serif; letter-spacing: 7px; }
+      .body { font-family: 'Cormorant Garamond','Georgia',serif; }
+      .gold { fill: #f0d2a3; }
+      .cream { fill: #fff6e8; }
+      .blueLine { fill: none; stroke: #0c57a3; stroke-width: 2.2; opacity: .72; }
+      .goldLine { fill: none; stroke: #efd2a2; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#103d79" stop-opacity="0.58"/>
+      <stop offset="0.55" stop-color="#061d3a" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#020915" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000714"/>
+      <stop offset="0.28" stop-color="#083064"/>
+      <stop offset="0.52" stop-color="#010715"/>
+      <stop offset="0.78" stop-color="#0a3a76"/>
+      <stop offset="1" stop-color="#00030b"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+<g id="fundo"><rect width="1080" height="1920" fill="url(#silk)"/><path d="M-120 410 C220 310 330 650 640 535 C840 460 930 280 1180 260" fill="none" stroke="#155aa8" stroke-width="170" opacity=".24" filter="url(#softBlur)"/><path d="M-80 1280 C260 1110 500 1390 760 1180 C920 1050 1000 940 1160 930" fill="none" stroke="#1f69be" stroke-width="210" opacity=".22" filter="url(#softBlur)"/><circle cx="840" cy="150" r="90" fill="#e6b66f" opacity=".16" filter="url(#softBlur)"/></g>
+<g id="decoracao"><line class="goldLine" x1="330" y1="610" x2="475" y2="610"/><path d="M540 597 L553 610 L540 623 L527 610 Z" fill="#efd2a2"/><line class="goldLine" x1="605" y1="610" x2="750" y2="610"/><circle class="goldLine" cx="540" cy="825" r="85"/><path class="goldLine" d="M495 805 H585 V875 H495 Z M495 825 H585 M540 805 V875 M500 805 C485 765 538 760 540 805 M580 805 C595 765 542 760 540 805"/><path class="goldLine" transform="translate(540 1490) scale(0.58)" d="M0 10 C-30 -18 -70 20 0 78 C70 20 30 -18 0 10 Z"/><g transform="translate(700 1500) scale(1.25)"><g id="floral" opacity=".72">
+  <path class="blueLine" d="M98 78 C140 120 154 184 122 246 C93 303 65 354 84 428"/>
+  <path class="blueLine" d="M128 144 C185 106 218 92 270 68"/>
+  <path class="blueLine" d="M132 198 C186 206 228 230 260 278"/>
+  <path class="blueLine" d="M90 285 C130 316 166 352 190 410"/>
+  <path class="blueLine" d="M45 92 C92 44 165 40 192 92 C150 102 102 122 45 92 Z"/>
+  <path class="blueLine" d="M78 70 C116 18 192 0 246 30 C188 52 140 76 78 70 Z"/>
+  <path class="blueLine" d="M100 526 C160 488 230 488 282 536 C218 550 158 570 100 526 Z"/>
+</g></g></g>
+<g id="tipografia" text-anchor="middle">
+  <text class="serif cream" x="540" y="430" font-size="39">O MAIS IMPORTANTE</text>
+  <text class="serif cream" x="540" y="485" font-size="39">É TER VOCÊ COMIGO</text>
+  <text class="serif cream" x="540" y="540" font-size="39">NESSA CELEBRAÇÃO!</text>
+  <text class="serif cream" x="540" y="1045" font-size="40">NÃO HAVERÁ</text>
+  <text class="serif cream" x="540" y="1104" font-size="40">LISTA DE PRESENTES.</text>
+  <text class="script gold" x="540" y="1305" font-size="58">Sua presença já é</text>
+  <text class="script gold" x="540" y="1370" font-size="58">o meu maior presente!</text>
+</g>
+
+</svg>

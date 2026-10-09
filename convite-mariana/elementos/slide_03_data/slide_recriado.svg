@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <style><![CDATA[
+      .serif { font-family: 'Cormorant Garamond','Cinzel','Times New Roman',serif; letter-spacing: 10px; }
+      .serif-tight { font-family: 'Cormorant Garamond','Playfair Display','Times New Roman',serif; letter-spacing: 4px; }
+      .script { font-family: 'Great Vibes','Allura','Segoe Script',cursive; }
+      .small { font-family: 'Cormorant Garamond','Times New Roman',serif; letter-spacing: 7px; }
+      .body { font-family: 'Cormorant Garamond','Georgia',serif; }
+      .gold { fill: #f0d2a3; }
+      .cream { fill: #fff6e8; }
+      .blueLine { fill: none; stroke: #0c57a3; stroke-width: 2.2; opacity: .72; }
+      .goldLine { fill: none; stroke: #efd2a2; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#103d79" stop-opacity="0.58"/>
+      <stop offset="0.55" stop-color="#061d3a" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#020915" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000714"/>
+      <stop offset="0.28" stop-color="#083064"/>
+      <stop offset="0.52" stop-color="#010715"/>
+      <stop offset="0.78" stop-color="#0a3a76"/>
+      <stop offset="1" stop-color="#00030b"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+<g id="fundo"><rect width="1080" height="1920" fill="#030813"/><rect x="0" y="0" width="1080" height="1920" fill="url(#blueGlow)" opacity=".86"/><path d="M0 1400 C220 1250 330 1040 540 940 C760 836 850 720 1080 430 L1080 1920 L0 1920 Z" fill="#071a35" opacity=".72"/><circle cx="890" cy="182" r="84" fill="#f0b96a" opacity=".24" filter="url(#softBlur)"/><circle cx="110" cy="1780" r="58" fill="#f0b96a" opacity=".28" filter="url(#softBlur)"/></g>
+<g id="decoracao"><line class="goldLine" x1="330" y1="460" x2="475" y2="460"/><path d="M540 447 L553 460 L540 473 L527 460 Z" fill="#efd2a2"/><line class="goldLine" x1="605" y1="460" x2="750" y2="460"/><line class="goldLine" x1="330" y1="1320" x2="475" y2="1320"/><path d="M540 1307 L553 1320 L540 1333 L527 1320 Z" fill="#efd2a2"/><line class="goldLine" x1="605" y1="1320" x2="750" y2="1320"/></g>
+<g id="tipografia" text-anchor="middle">
+  <text class="serif cream" x="540" y="380" font-size="50">SAVE THE DATE</text>
+  <text class="serif-tight cream" x="540" y="640" font-size="45">SÁBADO</text>
+  <text class="serif gold" x="540" y="980" font-size="250" letter-spacing="0">14</text>
+  <text class="serif cream" x="540" y="1115" font-size="58">NOVEMBRO</text>
+  <text class="serif cream" x="540" y="1190" font-size="50">2026</text>
+  <text class="serif-tight cream" x="540" y="1470" font-size="42">ÀS 21H</text>
+</g>
+
+</svg>

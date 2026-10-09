@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <style><![CDATA[
+      .serif { font-family: 'Cormorant Garamond','Cinzel','Times New Roman',serif; letter-spacing: 10px; }
+      .serif-tight { font-family: 'Cormorant Garamond','Playfair Display','Times New Roman',serif; letter-spacing: 4px; }
+      .script { font-family: 'Great Vibes','Allura','Segoe Script',cursive; }
+      .small { font-family: 'Cormorant Garamond','Times New Roman',serif; letter-spacing: 7px; }
+      .body { font-family: 'Cormorant Garamond','Georgia',serif; }
+      .gold { fill: #f0d2a3; }
+      .cream { fill: #fff6e8; }
+      .blueLine { fill: none; stroke: #0c57a3; stroke-width: 2.2; opacity: .72; }
+      .goldLine { fill: none; stroke: #efd2a2; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#103d79" stop-opacity="0.58"/>
+      <stop offset="0.55" stop-color="#061d3a" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#020915" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000714"/>
+      <stop offset="0.28" stop-color="#083064"/>
+      <stop offset="0.52" stop-color="#010715"/>
+      <stop offset="0.78" stop-color="#0a3a76"/>
+      <stop offset="1" stop-color="#00030b"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+<g id="decoracao"><line class="goldLine" x1="330" y1="1620" x2="475" y2="1620"/><path d="M540 1607 L553 1620 L540 1633 L527 1620 Z" fill="#efd2a2"/><line class="goldLine" x1="605" y1="1620" x2="750" y2="1620"/><path class="goldLine" d="M70 1040 C180 1012 230 1015 306 1042"/><path class="goldLine" d="M770 1040 C860 1016 945 1018 1014 1056"/></g>
+</svg>

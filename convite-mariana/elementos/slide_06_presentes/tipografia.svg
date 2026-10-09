@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <style><![CDATA[
+      .serif { font-family: 'Cormorant Garamond','Cinzel','Times New Roman',serif; letter-spacing: 10px; }
+      .serif-tight { font-family: 'Cormorant Garamond','Playfair Display','Times New Roman',serif; letter-spacing: 4px; }
+      .script { font-family: 'Great Vibes','Allura','Segoe Script',cursive; }
+      .small { font-family: 'Cormorant Garamond','Times New Roman',serif; letter-spacing: 7px; }
+      .body { font-family: 'Cormorant Garamond','Georgia',serif; }
+      .gold { fill: #f0d2a3; }
+      .cream { fill: #fff6e8; }
+      .blueLine { fill: none; stroke: #0c57a3; stroke-width: 2.2; opacity: .72; }
+      .goldLine { fill: none; stroke: #efd2a2; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="75%">
+      <stop offset="0" stop-color="#103d79" stop-opacity="0.58"/>
+      <stop offset="0.55" stop-color="#061d3a" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#020915" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000714"/>
+      <stop offset="0.28" stop-color="#083064"/>
+      <stop offset="0.52" stop-color="#010715"/>
+      <stop offset="0.78" stop-color="#0a3a76"/>
+      <stop offset="1" stop-color="#00030b"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+<g id="tipografia" text-anchor="middle">
+  <text class="serif cream" x="540" y="430" font-size="39">O MAIS IMPORTANTE</text>
+  <text class="serif cream" x="540" y="485" font-size="39">É TER VOCÊ COMIGO</text>
+  <text class="serif cream" x="540" y="540" font-size="39">NESSA CELEBRAÇÃO!</text>
+  <text class="serif cream" x="540" y="1045" font-size="40">NÃO HAVERÁ</text>
+  <text class="serif cream" x="540" y="1104" font-size="40">LISTA DE PRESENTES.</text>
+  <text class="script gold" x="540" y="1305" font-size="58">Sua presença já é</text>
+  <text class="script gold" x="540" y="1370" font-size="58">o meu maior presente!</text>
+</g>
+</svg>

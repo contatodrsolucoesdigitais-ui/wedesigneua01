@@ -1,0 +1,15 @@
+ARTE MARIANA BORGES - ELEMENTOS RECRIADOS
+
+Estrutura por slide:
+- fundo.svg: fundo recriado/editavel em vetor.
+- tipografia.svg: textos recriados em SVG transparente.
+- decoracao.svg: linhas, molduras, coracoes, icones e florais recriados em SVG transparente.
+- slide_recriado.svg: composicao completa editavel.
+- referencia_original.png: corte original limpo para comparacao.
+
+Fontes sugeridas para ficar mais proximo da arte original:
+- Titulos serifados: Cormorant Garamond, Cinzel ou Playfair Display.
+- Assinaturas e palavras manuscritas: Great Vibes, Allura ou Segoe Script.
+
+Observacao:
+A arte original veio achatada em PNG. Por isso, os elementos foram recriados como assets editaveis, nao extraidos como camadas nativas. O QR code foi mantido como recorte PNG do original para preservar a forma visual.
