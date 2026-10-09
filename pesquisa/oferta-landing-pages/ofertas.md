@@ -260,3 +260,53 @@ não para concluir que "não vende". Se um conjunto se destacar até o dia 3, pa
 - [Sebrae: digitalização recorde dos pequenos negócios em 2025](https://agenciasebrae.com.br/inovacao-e-tecnologia/digitalizacao-recorde-pequenos-negocios-no-brasil-atingem-nivel-historico-em-2025/)
 - [Preço do domínio .com.br no Registro.br (Tudo Sobre Hospedagem; confira no registro.br)](https://tudosobrehospedagemdesites.com.br/registro-de-dominio/)
 - [Landing pages para Meta Ads: mobile e velocidade (IRPR)](https://irpr.agency/meta-ads-landing-page-development)
+
+---
+
+## 7. Roteiros dos vídeos em motion
+
+**Formato:** 9:16 (Reels/Stories) e uma versão 4:5 (feed). **Duração:** 20 a 25 s. Sem narração obrigatória:
+o texto na tela conta a história (a maioria assiste sem som). Use música leve e **no máximo 6 palavras por tela**,
+cada tela com 2 a 3 s. Legenda sempre grande e no centro seguro (fora dos 15% de cima e de baixo).
+
+### Vídeo 1: "O site que criei" (público: psicólogos)
+
+| Tempo | Na tela (imagem) | Texto na tela |
+|---|---|---|
+| 0–2 s | Celular mostrando um Instagram/Linktree comum | **Te indicaram.** |
+| 2–4 s | Mão digitando o nome da psicóloga no Google | **A pessoa pesquisou seu nome.** |
+| 4–6 s | Corte seco: o site da sua cliente abrindo no celular | **E encontrou isto.** |
+| 6–9 s | Rolagem suave: topo com foto + CRP | ✔ **Quem você é** |
+| 9–12 s | Rolagem: "Como funciona a terapia" | ✔ **Como você trabalha** |
+| 12–14 s | Rolagem: online/presencial + local | ✔ **Onde você atende** |
+| 14–16 s | Dedo tocando o botão de WhatsApp, a conversa abre | ✔ **Agendar em um toque** |
+| 16–19 s | Tela limpa, logo/nome seu | **Site para psicólogos · pronto em até 7 dias** |
+| 19–23 s | Tela final, botão animado | **Veja o rascunho do seu antes de pagar** · **R$ 497** |
+
+*Só use o site real com autorização da cliente, e confira as regras do CFP no texto do site antes de mostrar.*
+
+### Vídeo 2: "Benefícios de ter um site" (público: geral)
+
+| Tempo | Na tela (imagem) | Texto na tela |
+|---|---|---|
+| 0–2 s | Lupa do Google animada sobre um celular | **Te pesquisaram no Google.** |
+| 2–4 s | Resultado vazio / só um perfil de Instagram | **O que apareceu?** |
+| 4–6 s | Transição para um site bonito montando-se bloco a bloco | **Um site faz isto por você:** |
+| 6–8 s | Ícone de selo/escudo | ✔ **Passa confiança na hora** |
+| 8–10 s | Ícone de relógio/lua | ✔ **Vende por você 24 h** |
+| 10–12 s | Ícone do Google | ✔ **Te coloca no Google** |
+| 12–14 s | Ícone do WhatsApp com notificação | ✔ **Cliente te chama em um toque** |
+| 14–16 s | Ícone de chave/casa | ✔ **É seu, não do Instagram** |
+| 16–19 s | Lista de entregas aparecendo | **Texto pronto · Feito para celular · No ar em 7 dias** |
+| 19–23 s | Tela final, botão animado | **Veja o rascunho antes de pagar** · **R$ 497** |
+
+### Texto do anúncio para cada vídeo
+- **Vídeo 1:** usar o texto da seção 4 com a 1ª linha de psicólogos.
+- **Vídeo 2:** usar o texto da seção 4 com a 1ª linha geral.
+
+### Checklist antes de subir (V4)
+- [ ] Nos 2 primeiros segundos fica claro **para quem é**? (Vídeo 1: indicação/psicólogo; Vídeo 2: quem tem negócio)
+- [ ] Os benefícios aparecem **antes** do preço (ancoragem)?
+- [ ] O "veja antes de pagar" aparece no fim?
+- [ ] O texto é legível no celular, sem som?
+- [ ] Os dois vídeos são **conceitos diferentes** (caso real × benefícios), e não variações do mesmo?
