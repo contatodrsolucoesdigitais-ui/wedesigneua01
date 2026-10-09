@@ -1,0 +1,11 @@
+{
+  // Convite Mariana Borges · 15 anos — site estático (Workers static assets).
+  // No painel: Create application > Import a repository > wedesigneua01,
+  // branch convite-mariana, Root directory = convite-mariana. Cada push publica sozinho.
+  "name": "convite-mariana-15anos",
+  "compatibility_date": "2026-09-15",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "single-page-application"
+  }
+}
