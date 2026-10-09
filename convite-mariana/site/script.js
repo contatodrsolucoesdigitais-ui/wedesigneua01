@@ -43,13 +43,30 @@
     box.dataset.pts.split(' ').forEach((pt, n) => {
       const [x, y] = pt.split(',').map(Number);
       const i = document.createElement('i');
-      i.style.cssText = `left:${x / 3.36}%;top:${y / 7.63}%;--t:${2.4 + Math.random() * 2.2}s;--w:${(n * .37) % 2.4}s`;
+      i.dataset.x = x; i.dataset.y = y;
+      i.style.cssText = `--t:${2.4 + Math.random() * 2.2}s;--w:${(n * .37) % 2.4}s`;
       const s = .6 + Math.random() * .8;
       i.style.width = i.style.height = `${5 * s}cqw`;
       i.style.margin = `-${2.5 * s}cqw 0 0 -${2.5 * s}cqw`;
       box.appendChild(i);
     });
   });
+
+  // o fundo cobre a tela inteira (cover); converte coordenadas da arte para pixels
+  function placeTwinkles() {
+    document.querySelectorAll('.twinkles').forEach(box => {
+      const bw = box.clientWidth, bh = box.clientHeight;
+      const k = Math.max(bw / 336, bh / 763), ox = (bw - 336 * k) / 2, oy = (bh - 763 * k) / 2;
+      box.querySelectorAll('i').forEach(i => {
+        i.style.left = (ox + i.dataset.x * k) + 'px';
+        i.style.top = (oy + i.dataset.y * k) + 'px';
+      });
+    });
+  }
+  addEventListener('resize', placeTwinkles);
+
+  // ordem de saída dos elementos de cada tela
+  pages.forEach(p => p.querySelectorAll('.at').forEach((el, i) => el.style.setProperty('--o', i)));
 
   /* ---------- navegação entre telas ---------- */
   function go(n, opts = {}) {
@@ -60,38 +77,70 @@
     busy = !opts.instant;
     hideHint();
 
-    next.classList.remove('in', 'leaving');
-    next.classList.add('active');
+    next.classList.remove('in', 'leaving', 'out');
     next.classList.toggle('back', back);
+    if (!prev || opts.instant || reduce) next.classList.add('active');
     if (prev && !opts.instant && !reduce) {
+      // 1) elementos da tela atual saem; 2) a próxima abre em círculo
+      busy = true;
+      prev.classList.add('out');
+      setTimeout(() => transition(prev, next, back), 650);
+    } else {
+      if (prev) prev.classList.remove('active', 'in', 'out');
+      requestAnimationFrame(() => { next.classList.add('in'); placeTwinkles(); });
+      busy = false;
+    }
+    cur = n;
+    pageStart = performance.now();
+    pageLen = lengthOf(next);
+    document.body.dataset.page = next.id;
+    try { history.replaceState(null, '', '#' + next.id); } catch (e) {}
+    hintTimer = setTimeout(showHint, 4200);
+  }
+
+  function transition(prev, next, back) {
       prev.classList.remove('active');
       prev.classList.add('leaving');
-      next.classList.add('entering');
+      next.classList.add('active', 'entering');
+      pageStart = performance.now();
       const f = document.createElement('div');
       f.className = 'flash';
       f.style.top = back ? '45%' : '55%';
       document.body.appendChild(f);
       setTimeout(() => f.remove(), DUR + 50);
       setTimeout(() => {
-        prev.classList.remove('leaving', 'in');
+        prev.classList.remove('leaving', 'in', 'out');
         next.classList.remove('entering');
         busy = false;
       }, DUR);
       // os elementos começam a entrar enquanto o círculo abre
-      setTimeout(() => next.classList.add('in'), 380);
-    } else {
-      if (prev) prev.classList.remove('active', 'in');
-      requestAnimationFrame(() => next.classList.add('in'));
-      busy = false;
-    }
-    cur = n;
-    document.body.dataset.page = next.id;
-    bar.style.setProperty('--p', (n + 1) / pages.length);
-    try { history.replaceState(null, '', '#' + next.id); } catch (e) {}
-    hintTimer = setTimeout(showHint, 4200);
+      setTimeout(() => { next.classList.add('in'); placeTwinkles(); }, 380);
   }
-  const nextPage = () => go(cur === pages.length - 1 ? 0 : cur + 1);
-  const prevPage = () => go(cur - 1);
+
+  /* ---------- modo vídeo: avança sozinho ---------- */
+  // cada tela fica no ar até o último elemento entrar + alguns segundos
+  function lengthOf(page) {
+    const ds = [...page.querySelectorAll('[style*="--d"]')].map(e => parseFloat(e.style.getPropertyValue('--d')) || 0);
+    return (Math.max(0, ...ds) + 4.2) * 1000;
+  }
+  let pageStart = 0, pageLen = 8000, playing = true;
+  function clock(now) {
+    if (cur >= 0) {
+      const t = Math.min(1, (now - pageStart) / pageLen);
+      bar.style.setProperty('--p', (cur + t) / pages.length);
+      const last = cur === pages.length - 1;
+      if (playing && !last && !busy && t >= 1) go(cur + 1);
+      if (last && t >= 1) bar.style.setProperty('--p', 1);
+    }
+    requestAnimationFrame(clock);
+  }
+  requestAnimationFrame(clock);
+  // ao voltar para a aba, recomeça a contagem da tela atual
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) pageStart = performance.now(); });
+  // tocar num link/botão pausa o vídeo naquela tela
+  document.querySelectorAll('#convite a').forEach(a => a.addEventListener('click', () => { playing = false; }));
+  const nextPage = () => { playing = true; go(cur === pages.length - 1 ? 0 : cur + 1); };
+  const prevPage = () => { playing = true; go(cur - 1); };
 
   function showHint() {
     const last = cur === pages.length - 1;

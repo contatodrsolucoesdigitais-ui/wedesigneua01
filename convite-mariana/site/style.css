@@ -36,12 +36,6 @@ a:focus-visible, button:focus-visible { outline: 1px dashed var(--gold); outline
 }
 .page.active { visibility: visible; z-index: 2; }
 .page.leaving { visibility: visible; z-index: 1; }
-/* preenchimento desfocado nas laterais (telas mais largas que o convite) */
-.page::before {
-  content: ""; position: absolute; inset: -40px;
-  background: var(--bg) center / cover no-repeat;
-  filter: blur(28px) brightness(.5) saturate(1.1);
-}
 
 /* entrada: abre em círculo a partir do centro, com um anel de luz */
 .page.entering { animation: iris 1.25s var(--ease-io) both; }
@@ -60,15 +54,15 @@ a:focus-visible, button:focus-visible { outline: 1px dashed var(--gold); outline
 }
 @keyframes ring { 0% { transform: scale(0); opacity: 1; } 80% { opacity: .7; } 100% { transform: scale(16); opacity: 0; } }
 
-/* palco com a proporção da arte original (336 × 763) */
-.stage {
-  position: relative;
+/* fundo em tela cheia (sem bordas); o conteúdo fica numa coluna com a
+   proporção da arte original (336 × 763), centralizada */
+.stage { position: absolute; inset: 0; overflow: hidden; }
+.col {
+  position: absolute; left: 50%; top: 50%; z-index: 3;
   height: min(100%, calc(100vw * 763 / 336));
   aspect-ratio: 336 / 763;
-  max-width: 100%;
+  transform: translate(-50%, -50%);
   container-type: size;
-  overflow: hidden;
-  box-shadow: 0 0 80px rgba(0, 0, 0, .6);
 }
 .bg {
   position: absolute; inset: -3%;
@@ -191,7 +185,7 @@ a:focus-visible, button:focus-visible { outline: 1px dashed var(--gold); outline
   stroke-dasharray: 120; stroke-dashoffset: 120; filter: drop-shadow(0 0 2px rgba(255, 236, 190, .8)); }
 
 /* brilhos pontuais (tiara, lustres, luzes) */
-.twinkles { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.twinkles { position: absolute; inset: 0; z-index: 2; pointer-events: none; container-type: size; }
 .twinkles i {
   position: absolute; width: 5cqw; height: 5cqw; margin: -2.5cqw 0 0 -2.5cqw;
   background: radial-gradient(circle, #fff 0 8%, rgba(255, 244, 214, .9) 14%, transparent 60%);
@@ -207,7 +201,7 @@ a:focus-visible, button:focus-visible { outline: 1px dashed var(--gold); outline
 .progress { position: fixed; left: 0; right: 0; top: 0; height: 2px; z-index: 8; background: rgba(220, 189, 138, .15); }
 .progress i { display: block; height: 100%; width: calc(var(--p, 0) * 100%);
   background: linear-gradient(90deg, var(--gold-3), var(--gold-1)); box-shadow: 0 0 8px var(--gold-2);
-  transition: width 1.2s var(--ease-io); }
+}
 
 /* dica de rolagem */
 .hint {
@@ -298,6 +292,14 @@ body[data-page="confirmacao"] .hint { bottom: 5.5%; }
 .in .pill::after { animation: sweep 3.6s ease-in-out calc(var(--d) + 1.2s) infinite; }
 .in .qr .scan { animation: scan 2.4s ease-in-out calc(var(--d) + 1s) infinite; }
 .in .twinkles i { animation: star var(--t) ease-in-out var(--w) infinite; }
+
+/* saída: os elementos sobem e somem um a um antes da troca de tela */
+.page.out .at { animation: out .7s var(--ease-io) calc(var(--o, 0) * 55ms) forwards; }
+@keyframes out { to { opacity: 0; transform: translateY(calc(-50% - 4cqw)); filter: blur(8px); } }
+
+/* fundo sempre em movimento lento */
+.in .bg { animation: drift 16s ease-in-out 2s infinite alternate; }
+@keyframes drift { from { background-position: 50% 50%; } to { background-position: 46% 54%; } }
 
 @keyframes up     { from { opacity: 0; transform: translateY(5cqw); filter: blur(6px); } to { opacity: 1; transform: none; filter: blur(0); } }
 @keyframes letter { from { opacity: 0; transform: translateY(.7em) rotate(8deg); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
