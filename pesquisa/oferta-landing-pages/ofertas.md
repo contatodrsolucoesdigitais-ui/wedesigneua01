@@ -493,3 +493,42 @@ principal**: use uma por variação de texto, ou troque entre os anúncios.
 5. Veja o seu site pronto antes de pagar: toque em "Enviar mensagem".
 
 **Descrição:** Site profissional · Veja antes de pagar · R$ 497
+
+---
+
+## 10. Frases (textos principais) + títulos: 5 de cada por conjunto
+
+Cole as 5 frases em **Texto principal** e os 5 títulos em **Título** ("Várias opções de texto"). Cada frase usa um
+ângulo diferente, para a Meta testar de verdade. Botão: **Enviar mensagem**.
+
+### Conjunto 1: Psicólogos
+
+**Frases:**
+1. **(Indicação)** Psicólogo(a) do RJ, ES ou MG: te indicaram, a pessoa pesquisou seu nome no Google e encontrou só um Linktree. Um site profissional mostra quem você é e como trabalha antes da primeira sessão. Texto pronto, dentro das normas do CFP, no ar em até 7 dias. Você vê o rascunho antes de pagar. R$ 497. 👉 Toque em "Enviar mensagem".
+2. **(Risco zero)** Quer um site profissional, mas tem medo de pagar e não gostar? Eu faço o rascunho do seu site primeiro. Gostou, paga. Não gostou, não paga nada. Sites para psicólogos do RJ, ES e MG, por R$ 497. 👉 Peça o seu rascunho.
+3. **(Facilidade)** Sem tempo para escrever textos ou montar site? Eu escrevo tudo, dentro das normas do CFP, e você só aprova. Botão de WhatsApp em todas as telas e site no ar em até 7 dias. Veja o rascunho antes de pagar. R$ 497. 👉 Toque em "Enviar mensagem".
+4. **(Confiança)** Antes de marcar a primeira sessão, o paciente quer saber se pode confiar em você. O seu site responde isso 24 horas por dia: sua abordagem, como funciona a terapia e onde você atende. Para psicólogos do RJ, ES e MG. R$ 497, e você vê antes de pagar.
+5. **(Prova)** Fiz o site de uma psicóloga, e o seu pode ficar assim: profissional, feito para o celular e com o paciente chamando no WhatsApp em um toque. No ar em até 7 dias. Você vê o rascunho antes de pagar. R$ 497. 👉 Peça o seu.
+
+**Títulos:**
+1. Veja seu site antes de pagar
+2. Te indicaram. O que acharam?
+3. Site para psicólogos em 7 dias
+4. Mais que um Linktree: seu site
+5. Site dentro das normas do CFP
+
+### Conjunto 2: Geral
+
+**Frases:**
+1. **(Pesquisa)** Tem um negócio no RJ, ES ou MG? Antes de te chamar, o cliente te pesquisa no Google. Se só aparece o Instagram, ele fica na dúvida e chama o concorrente. Seu site profissional no ar em até 7 dias. Você vê o rascunho antes de pagar. R$ 497. 👉 Toque em "Enviar mensagem".
+2. **(Risco zero)** Quer um site, mas tem medo de pagar e não gostar? Eu faço o rascunho do site do seu negócio primeiro. Gostou, paga. Não gostou, não paga nada. R$ 497 · Atendo RJ, ES e MG. 👉 Peça o seu.
+3. **(Facilidade)** Sem tempo para montar site? Eu escrevo os textos, monto tudo pensado para o celular e coloco botão de WhatsApp em todas as telas. Você só aprova. No ar em até 7 dias. R$ 497, e você vê antes de pagar.
+4. **(Independência)** Se o Instagram cair ou mudar o algoritmo amanhã, onde seus clientes te encontram? Um site é seu: mostra seus serviços 24 h por dia e leva o cliente direto para o seu WhatsApp. R$ 497 · RJ, ES e MG. 👉 Toque em "Enviar mensagem".
+5. **(Lista)** Para quem tem negócio e ainda não tem site: ✔ site profissional no celular ✔ texto pronto ✔ botão de WhatsApp ✔ no ar em 7 dias ✔ você vê antes de pagar. Tudo por R$ 497. 👉 Peça o rascunho do seu.
+
+**Títulos:**
+1. Te pesquisaram. O que apareceu?
+2. Seu site em 7 dias · R$ 497
+3. Veja seu site antes de pagar
+4. Seu negócio merece um site
+5. Não dependa só do Instagram
