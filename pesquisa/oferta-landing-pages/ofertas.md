@@ -532,3 +532,21 @@ Cole as 5 frases em **Texto principal** e os 5 títulos em **Título** ("Várias
 3. Veja seu site antes de pagar
 4. Seu negócio merece um site
 5. Não dependa só do Instagram
+
+---
+
+## 11. Frases curtas (até ~125 caracteres, aparecem inteiras sem o "ver mais")
+
+### Conjunto 1: Psicólogos
+1. Te indicaram e pesquisaram seu nome. Acharam só um Linktree? Seu site em 7 dias, por R$ 497.
+2. Veja o rascunho do seu site antes de pagar. Não gostou, não paga. Sites para psicólogos, R$ 497.
+3. Eu escrevo tudo, dentro das normas do CFP. Você só aprova. Site no ar em 7 dias, por R$ 497.
+4. Antes da 1ª sessão, o paciente te pesquisa. Seu site mostra quem você é. R$ 497 · RJ, ES e MG.
+5. Fiz o site de uma psicóloga. O seu pode ficar assim. Veja o rascunho antes de pagar. R$ 497.
+
+### Conjunto 2: Geral
+1. Te pesquisaram no Google. Só apareceu o Instagram? Seu site profissional em 7 dias, por R$ 497.
+2. Veja o rascunho do seu site antes de pagar. Não gostou, não paga. R$ 497 · RJ, ES e MG.
+3. Eu escrevo os textos e monto tudo. Você só aprova. Site no ar em 7 dias, por R$ 497.
+4. Seu negócio não pode depender só do Instagram. Tenha um site seu por R$ 497.
+5. Site profissional, texto pronto e botão de WhatsApp. No ar em 7 dias. R$ 497.
