@@ -178,7 +178,7 @@ CAMPANHA  [TESTE] Sites | Mensagens WhatsApp | out/26
 | Item | Configuração |
 |---|---|
 | Duração | **5 dias** (R$ 100 no total) |
-| Local | Sua cidade/estado (mais confiança) ou Brasil `[AJUSTE]` |
+| Local | **RJ, ES e MG** (abrir para o Brasil só se não entregar até o dia 2 ou na próxima rodada) |
 | Posicionamentos | Instagram e Facebook: Feed, Reels e Stories. **Desligue Audience Network e Messenger** (gastam com clique ruim) |
 | Formatos | Vídeo em 9:16 para Reels/Stories e 4:5 para Feed (suba os dois no mesmo anúncio) |
 | Mensagem pré-preenchida | Conjunto 1: **"Quero ver o rascunho do meu site (PSI)"** · Conjunto 2: **"Quero ver o rascunho do meu site"** |
@@ -339,3 +339,113 @@ cada tela com 2 a 3 s. Legenda sempre grande e no centro seguro (fora dos 15% de
 - [ ] O "veja antes de pagar" aparece no fim?
 - [ ] O texto é legível no celular, sem som?
 - [ ] Os dois vídeos são **conceitos diferentes** (caso real × benefícios), e não variações do mesmo?
+
+---
+
+## 8. Copy dos anúncios (por conjunto)
+
+Campos do Gerenciador: **Texto principal** (aparece acima do vídeo/imagem), **Título** (até ~40 caracteres, aparece
+abaixo), **Descrição** (nem sempre aparece), **Botão** e **Mensagem pré-preenchida** (o que o cliente envia ao tocar).
+
+### Conjunto 1: Psicólogos (RJ, ES, MG)
+
+**AD 1.1: Vídeo 1 "O site que criei"**
+
+Texto principal:
+> Psicólogo(a) do RJ, ES ou MG que atende por indicação ou pelo Instagram: isto é para você. 👇
+>
+> Quando alguém recebe sua indicação, a primeira coisa que faz é pesquisar seu nome no Google. Se só aparece um
+> Linktree, a pessoa não sabe quem você é, como trabalha nem se pode confiar.
+>
+> No vídeo, o site que fiz para uma psicóloga. O seu pode ficar assim:
+> ✔ Texto pronto, escrito dentro das normas de publicidade do CFP: você só aprova
+> ✔ Sua abordagem e como funciona a terapia (online, presencial ou os dois)
+> ✔ Botão de WhatsApp em todas as telas: o paciente chama você em um toque
+> ✔ No ar em até 7 dias
+>
+> **Você vê o rascunho do seu site antes de pagar.** Gostou, paga. Não gostou, não paga nada.
+> R$ 497.
+>
+> Toque em "Enviar mensagem" e peça o seu rascunho.
+
+- **Título:** Veja seu site antes de pagar
+- **Descrição:** Site para psicólogos · R$ 497
+- **Botão:** Enviar mensagem
+- **Mensagem pré-preenchida:** Quero ver o rascunho do meu site (PSI)
+
+**AD 1.2: Estático "A pesquisa"**
+
+Texto principal:
+> Te indicaram. A pessoa pesquisou seu nome no Google. O que ela encontrou? 🔎
+>
+> Antes da primeira sessão, o paciente quer saber quem você é e como você trabalha. Um site profissional responde
+> isso por você, 24 horas por dia, sem você repetir tudo no WhatsApp.
+>
+> Faço sites para psicólogos do RJ, ES e MG:
+> ✔ Texto pronto, dentro das normas do CFP
+> ✔ Feito para o celular, com botão de WhatsApp
+> ✔ No ar em até 7 dias
+>
+> Você vê o rascunho antes de pagar. R$ 497.
+> 👉 Toque em "Enviar mensagem".
+
+- **Título:** Te indicaram. O que acharam?
+- **Descrição:** Rascunho grátis · R$ 497
+- **Botão:** Enviar mensagem
+- **Mensagem pré-preenchida:** Quero ver o rascunho do meu site (PSI)
+
+*Antes de publicar: confira as regras de publicidade do CFP; não prometa resultado clínico nem número de pacientes.*
+
+### Conjunto 2: Geral (RJ, ES, MG)
+
+**AD 2.1: Vídeo 2 "Benefícios de um site"**
+
+Texto principal:
+> Tem um negócio no RJ, ES ou MG e ainda não tem site? (Ou tem um que dá vergonha de mandar?) 👇
+>
+> Hoje, antes de te chamar, o cliente te pesquisa no Google. Se só aparece o Instagram, muita gente fica na dúvida
+> e chama o concorrente que parece mais profissional.
+>
+> Um site:
+> ✔ Passa confiança na hora
+> ✔ Mostra seus serviços 24 h por dia
+> ✔ Te coloca no Google
+> ✔ Leva o cliente direto para o seu WhatsApp
+> ✔ É seu, e não depende do algoritmo do Instagram
+>
+> Eu faço o seu com texto pronto, pensado para o celular, no ar em até 7 dias.
+> **Você vê o rascunho antes de pagar.** R$ 497.
+>
+> Toque em "Enviar mensagem" e peça o seu.
+
+- **Título:** Seu site em 7 dias · R$ 497
+- **Descrição:** Veja o rascunho antes de pagar
+- **Botão:** Enviar mensagem
+- **Mensagem pré-preenchida:** Quero ver o rascunho do meu site
+
+**AD 2.2: Estático "A lista"**
+
+Texto principal:
+> Para quem tem negócio e ainda não tem site. 👇
+>
+> ✔ Site profissional, feito para o celular
+> ✔ Texto escrito por mim: você só aprova
+> ✔ Botão de WhatsApp em todas as telas
+> ✔ Seus serviços, fotos e área de atendimento num lugar só
+> ✔ No ar em até 7 dias
+>
+> E o principal: você vê o rascunho do seu site **antes de pagar**. Gostou, paga. Não gostou, não paga nada.
+>
+> R$ 497 · Atendo RJ, ES e MG.
+> 👉 Toque em "Enviar mensagem".
+
+- **Título:** Te pesquisaram. O que apareceu?
+- **Descrição:** Site profissional · R$ 497
+- **Botão:** Enviar mensagem
+- **Mensagem pré-preenchida:** Quero ver o rascunho do meu site
+
+### Regras de copy usadas (V4)
+- **1ª linha qualifica** (para quem é + região): quem não é do público não clica e não gasta sua verba.
+- **Benefícios antes do preço** (ancoragem).
+- **"Veja antes de pagar" sempre no fim**: é o argumento mais forte e fica na memória.
+- **Domínio não é citado** no anúncio; é explicado na conversa, antes do pagamento (seção 1).
