@@ -449,3 +449,47 @@ Texto principal:
 - **Benefícios antes do preço** (ancoragem).
 - **"Veja antes de pagar" sempre no fim**: é o argumento mais forte e fica na memória.
 - **Domínio não é citado** no anúncio; é explicado na conversa, antes do pagamento (seção 1).
+
+---
+
+## 9. Variações para o Gerenciador (5 títulos, 5 CTAs, 1 descrição por conjunto)
+
+No Gerenciador, ative **"Várias opções de texto"** e cole os 5 títulos; a Meta testa as combinações sozinha.
+O **botão** é um só (**Enviar mensagem**). Os 5 CTAs são frases de chamada para a **última linha do texto
+principal**: use uma por variação de texto, ou troque entre os anúncios.
+
+### Conjunto 1: Psicólogos
+
+**Títulos (até ~40 caracteres):**
+1. Veja seu site antes de pagar
+2. Te indicaram. O que acharam?
+3. Site para psicólogos em 7 dias
+4. Mais que um Linktree: seu site
+5. Site dentro das normas do CFP
+
+**CTAs:**
+1. Toque em "Enviar mensagem" e peça o rascunho do seu site.
+2. Peça agora o rascunho do seu site, sem compromisso.
+3. Quer ver como o seu site ficaria? Me chama no WhatsApp.
+4. Toque no botão e receba o rascunho em até 3 dias úteis.
+5. Veja o seu site pronto antes de decidir: toque em "Enviar mensagem".
+
+**Descrição:** Site para psicólogos · Veja antes de pagar · R$ 497
+
+### Conjunto 2: Geral
+
+**Títulos (até ~40 caracteres):**
+1. Te pesquisaram. O que apareceu?
+2. Seu site em 7 dias · R$ 497
+3. Veja seu site antes de pagar
+4. Seu negócio merece um site
+5. Não dependa só do Instagram
+
+**CTAs:**
+1. Toque em "Enviar mensagem" e peça o rascunho do seu site.
+2. Peça agora o rascunho do seu site, sem compromisso.
+3. Quer ver como o site do seu negócio ficaria? Me chama no WhatsApp.
+4. Toque no botão e receba o rascunho em até 3 dias úteis.
+5. Veja o seu site pronto antes de pagar: toque em "Enviar mensagem".
+
+**Descrição:** Site profissional · Veja antes de pagar · R$ 497
