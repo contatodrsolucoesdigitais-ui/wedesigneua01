@@ -157,15 +157,44 @@ custo por conversa baixo.
 
 ## 5. Teste com R$ 100
 
+### Estrutura final da campanha
+
+```
+CAMPANHA  [TESTE] Sites | Mensagens WhatsApp | out/26
+│  Objetivo: Engajamento → Mensagens → WhatsApp
+│  Orçamento: por CONJUNTO (ABO), não por campanha, para os dois públicos gastarem igual
+│
+├── CONJUNTO 1  PSI | Psicólogos | R$ 10/dia
+│     Público: 26–55 anos · interesses Psicologia, Psicoterapia, Terapia cognitivo-comportamental
+│     ├── AD 1.1  PSI | Vídeo 1 "O site que criei"
+│     └── AD 1.2  PSI | Estático conceito 1 "A pesquisa"        (opcional)
+│
+└── CONJUNTO 2  GER | Geral | R$ 10/dia
+      Público: 25–55 anos · interesses Pequenas empresas, Empreendedorismo, Microempreendedor
+      ├── AD 2.1  GER | Vídeo 2 "Benefícios de um site"
+      └── AD 2.2  GER | Estático conceito 3 "A lista"            (opcional)
+```
+
 | Item | Configuração |
 |---|---|
-| Objetivo | Engajamento → **Mensagens (WhatsApp)** |
-| Estrutura | 1 campanha, **2 conjuntos**: psicólogos e geral |
-| Orçamento | **R$ 10/dia por conjunto, 5 dias** (R$ 100 no total) |
-| Criativos | Psicólogos: conceitos 1 e 2 · Geral: conceitos 3 e 4 |
-| Psicólogos | 26 a 55 anos; interesses: Psicologia, Psicoterapia, Terapia cognitivo-comportamental |
-| Geral | 25 a 55 anos; interesses: Pequenas empresas, Empreendedorismo, Microempreendedor |
+| Duração | **5 dias** (R$ 100 no total) |
 | Local | Sua cidade/estado (mais confiança) ou Brasil `[AJUSTE]` |
+| Posicionamentos | Instagram e Facebook: Feed, Reels e Stories. **Desligue Audience Network e Messenger** (gastam com clique ruim) |
+| Formatos | Vídeo em 9:16 para Reels/Stories e 4:5 para Feed (suba os dois no mesmo anúncio) |
+| Mensagem pré-preenchida | Conjunto 1: **"Quero ver o rascunho do meu site (PSI)"** · Conjunto 2: **"Quero ver o rascunho do meu site"** |
+| Mensagem automática | A da seção 6 de cada nicho |
+| Não mexer | Não edite os anúncios nos 3 primeiros dias (cada edição reinicia o aprendizado) |
+
+**Por que assim:**
+- **Orçamento por conjunto:** com R$ 100, se a Meta escolher sozinha (orçamento de campanha), ela pode jogar quase
+  tudo num público e você fica sem saber nada do outro.
+- **Mensagem pré-preenchida diferente:** mostra de qual público veio cada conversa no WhatsApp, sem precisar de
+  ferramenta nenhuma.
+- **No máximo 2 anúncios por conjunto:** com R$ 10/dia, mais anúncios dividem demais a verba e nenhum gera dado.
+  Se só tiver os vídeos prontos, suba só eles.
+
+**O que anotar todo dia** (Gerenciador de Anúncios → colunas: Valor gasto, Conversas iniciadas, Custo por conversa,
+CPM, CTR) e, na planilha, quantos pediram rascunho e quantos pagaram, por público.
 
 **Atenção [análise]:** R$ 50 por público é pouco. Serve para ver **qual público e qual criativo geram conversa**,
 não para concluir que "não vende". Se um conjunto se destacar até o dia 3, passe o orçamento todo para ele.
@@ -174,7 +203,7 @@ não para concluir que "não vende". Se um conjunto se destacar até o dia 3, pa
 
 | Quando | Se… | Faça |
 |---|---|---|
-| Dia 3 | Um conjunto com custo por conversa até 2x menor que o outro | Mova o orçamento todo para ele |
+| Dia 3 | Um conjunto com custo por conversa até 2x menor que o outro | Pause o pior e passe os R$ 20/dia para o melhor |
 | Dia 3 | Nenhuma conversa nos dois | Troque a headline (use outro ângulo da seção 3) |
 | Fim | 1 venda ou mais | Validado: repita com R$ 200 no conjunto e criativo vencedores |
 | Fim | Conversas, mas nenhuma venda | O anúncio funciona; o fechamento não: revise o que travou no WhatsApp |
