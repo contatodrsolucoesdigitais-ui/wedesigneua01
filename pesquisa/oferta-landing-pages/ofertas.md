@@ -556,20 +556,20 @@ Cole as 5 frases em **Texto principal** e os 5 títulos em **Título** ("Várias
 ## 12. Criativo "5 vagas para portfólio"
 
 **Regra de ouro: só use se for verdade.** Limite real de 5 vagas a R$ 497 e, depois delas, preço maior de fato
-(sugestão: R$ 697). Escassez falsa derruba confiança e pode gerar reclamação.
+(uma landing page normal sai **a partir de R$ 900**; cobre isso de fato depois das 5 vagas). Escassez falsa derruba confiança e pode gerar reclamação.
 
 **A troca que justifica o preço:** o cliente paga R$ 497 e, em troca, autoriza mostrar o site no seu portfólio e dá
 um depoimento depois de publicado. Isso dá um "porquê" ao preço baixo e gera a prova social que falta hoje.
 
 **Texto na imagem/vídeo:**
 > **Estou selecionando 5 empresas** para criar o site profissional por R$ 497
-> (depois, o valor volta para R$ 697)
+> (uma landing page normal sai a partir de R$ 900)
 > Em troca: o seu site entra no meu portfólio.
 > ✔ Texto pronto ✔ Botão de WhatsApp ✔ No ar em 7 dias ✔ Você vê antes de pagar
 
 **Frases (texto principal):**
 1. Estou selecionando 5 empresas do RJ, ES e MG para criar o site profissional por R$ 497, em troca de mostrar o resultado no meu portfólio. Você vê o rascunho antes de pagar.
-2. 5 vagas: site profissional por R$ 497 (o valor normal é R$ 697). Em troca, seu site entra no meu portfólio. No ar em 7 dias.
+2. 5 vagas: site profissional por R$ 497 (uma landing page normal sai a partir de R$ 900). Em troca, seu site entra no meu portfólio. No ar em 7 dias.
 3. Quer um site profissional pagando menos? Abri 5 vagas a R$ 497 para montar meu portfólio. Texto pronto, botão de WhatsApp, e você vê antes de pagar.
 4. Seu negócio pode ser um dos 5 do meu portfólio: site profissional por R$ 497, no ar em 7 dias. Depois das 5 vagas, o valor sobe.
 5. Procuro 5 negócios do RJ, ES e MG para criar sites de portfólio por R$ 497. Me chama e veja o rascunho do seu antes de pagar.
@@ -578,7 +578,7 @@ um depoimento depois de publicado. Isso dá um "porquê" ao preço baixo e gera 
 1. 5 vagas: seu site por R$ 497
 2. Selecionando 5 empresas
 3. Site de portfólio · R$ 497
-4. Depois das 5 vagas, R$ 697
+4. De R$ 900 por R$ 497: 5 vagas
 5. Seja um dos 5 do portfólio
 
 **Descrição:** Site profissional · Veja antes de pagar · 5 vagas
@@ -587,8 +587,8 @@ um depoimento depois de publicado. Isso dá um "porquê" ao preço baixo e gera 
 > Das 5 vagas, restam [número real]. Para garantir a sua, eu faço o rascunho e você decide depois de ver.
 > A única condição é eu poder mostrar o seu site no meu portfólio e você me dar um depoimento depois de publicado.
 
-**Controle:** anote cada vaga vendida. Quando fechar a 5ª, pause este anúncio ou troque para "últimas vagas a
-R$ 697" só se isso também for verdade.
+**Controle:** anote cada vaga vendida. Quando fechar a 5ª, pause este anúncio ou troque para o preço normal
+(a partir de R$ 900).
 
 ### Roteiro do vídeo em motion: "5 vagas para portfólio"
 
@@ -600,7 +600,7 @@ animada) · no máximo 6 palavras por tela · texto grande no centro seguro.
 | 0–2 s | Fundo escuro; "5" gigante entra com impacto (zoom-in + leve tremida) | **5 VAGAS** |
 | 2–4 s | O "5" vira 5 quadradinhos/ícones de loja lado a lado | **Estou selecionando 5 empresas** |
 | 4–6 s | Um celular desliza da lateral, com um site bonito abrindo | **para criar o site profissional** |
-| 6–8 s | Preço "R$ 697" aparece e é riscado; "R$ 497" entra por cima, com destaque | ~~R$ 697~~ → **R$ 497** |
+| 6–8 s | "Landing page normal: a partir de R$ 900" aparece; o valor é riscado e "R$ 497" entra por cima, com destaque | Normal: ~~a partir de R$ 900~~ → **R$ 497** |
 | 8–10 s | Ícone de pasta/portfólio com o site entrando nela | **Em troca: seu site entra no meu portfólio** |
 | 10–12 s | Check animado + rolagem do site no celular | ✔ **Texto pronto, você só aprova** |
 | 12–14 s | Dedo tocando o botão verde do WhatsApp | ✔ **Cliente te chama em um toque** |
