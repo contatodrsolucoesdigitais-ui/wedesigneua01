@@ -589,3 +589,28 @@ um depoimento depois de publicado. Isso dá um "porquê" ao preço baixo e gera 
 
 **Controle:** anote cada vaga vendida. Quando fechar a 5ª, pause este anúncio ou troque para "últimas vagas a
 R$ 697" só se isso também for verdade.
+
+### Roteiro do vídeo em motion: "5 vagas para portfólio"
+
+**Formato:** 9:16 (Reels/Stories) + versão 4:5 (feed) · **20 a 22 s** · sem narração (texto na tela + música
+animada) · no máximo 6 palavras por tela · texto grande no centro seguro.
+
+| Tempo | Na tela (animação) | Texto na tela |
+|---|---|---|
+| 0–2 s | Fundo escuro; "5" gigante entra com impacto (zoom-in + leve tremida) | **5 VAGAS** |
+| 2–4 s | O "5" vira 5 quadradinhos/ícones de loja lado a lado | **Estou selecionando 5 empresas** |
+| 4–6 s | Um celular desliza da lateral, com um site bonito abrindo | **para criar o site profissional** |
+| 6–8 s | Preço "R$ 697" aparece e é riscado; "R$ 497" entra por cima, com destaque | ~~R$ 697~~ → **R$ 497** |
+| 8–10 s | Ícone de pasta/portfólio com o site entrando nela | **Em troca: seu site entra no meu portfólio** |
+| 10–12 s | Check animado + rolagem do site no celular | ✔ **Texto pronto, você só aprova** |
+| 12–14 s | Dedo tocando o botão verde do WhatsApp | ✔ **Cliente te chama em um toque** |
+| 14–16 s | Calendário marcando 7 dias | ✔ **No ar em até 7 dias** |
+| 16–18 s | Olho/lupa sobre o rascunho do site | ✔ **Você vê antes de pagar** |
+| 18–20 s | Os 5 quadradinhos de novo; 1 ou 2 ficam "preenchidos" **só se já houver vendas reais** | **Garanta a sua vaga** |
+| 20–22 s | Tela final: botão "Enviar mensagem" pulsando + "RJ · ES · MG" | **Me chama no WhatsApp 👇** |
+
+**Dicas de produção:**
+- Cores: fundo escuro + 1 cor de destaque (o verde do WhatsApp funciona bem para o CTA).
+- O corte do preço (6–8 s) é o momento mais importante: deixe-o mais lento e com som de impacto.
+- **Não mostre vagas preenchidas que não existem.** Se ainda não vendeu nenhuma, mostre os 5 vazios.
+- Na legenda do anúncio, use as frases e títulos da seção 12.
