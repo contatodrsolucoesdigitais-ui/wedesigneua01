@@ -88,3 +88,8 @@ Respostas prontas:
 | Escolheram Crescimento ou Completo entre quem pediu preço | ≥ 50% |
 | Vendas | 1 (R$ 397 já paga 4x o teste; R$ 697 paga 7x) |
 Se muitas conversas forem curiosas → subir o anúncio para "a partir de R$ 697".
+
+## Prompts de imagem (ver resposta do chat de 2026-11-24 para a versão completa)
+- E1 tabela de planos · E2 curtidas × agenda vazia · E3 "Paciente agendado. Não curtida." · E4 bônus relatório
+- Gerar em 4:5; refazer 9:16 com "same design, vertical 9:16, keep 250px top and 350px bottom empty"
+- Conferir acentos e preços; corrigir texto no Canva; remover metadados antes de subir
