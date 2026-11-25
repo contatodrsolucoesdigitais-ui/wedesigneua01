@@ -112,3 +112,23 @@ Posicionamentos automáticos. Mensagem pré-preenchida diferente por anúncio (s
 - Conjunto 120251569473270549 "Cachoeiro | Mulheres | WhatsApp" — R$ 25/dia, Cachoeiro 10 km, mesmas regras
 - Página: Ateliê de Sobrancelhas - Steffani Torres (487632141444108)
 - Pendente: anúncios (aguardando as 3 artes), local "pessoas que moram neste local" no Gerenciador
+
+## Atualização 25/11 — conjuntos recriados com raio maior
+- Conjuntos antigos (15/10 km) excluídos.
+- Conjunto 120251569511850549 "Alegre 20km + Guacui 15km | Mulheres | WhatsApp" — R$ 35/dia
+- Conjunto 120251569513100549 "Cachoeiro 15km | Mulheres | WhatsApp" — R$ 25/dia
+- Imagens já na conta (hash): Black Glow 1baae4123fe1dbff2b57ba533d0b613c · Power Brow 1bf8d76a1d7b5de4272fdf3a82bfde7a · Black Essence a48096d4b0999a238dec7aa6caa0c747 · Capa b973d2a69baf53d8f52e75503543ef86
+- BLOQUEIO: Meta pediu "Autentique sua conta" (erro 31/3858385) — Stefani precisa autenticar no Gerenciador antes de criar anúncios.
+
+## Copy dos anúncios (botão: Enviar mensagem no WhatsApp)
+**Black Glow** — Texto: "✨ BLACK BEAUTY na Torres Beauty Academy — só até domingo, 30/11! / BLACK GLOW: Brow Lamination + Lash Lifting / Sobrancelhas alinhadas e cílios curvados, com resultado natural. / De R$ 300 por R$ 250 💛 / Garanta seu combo com um sinal no Pix e agende seu horário. Toque em "Enviar mensagem" e fale com a Stefani."
+Título: Black Glow por R$ 250 — até 30/11 · Descrição: Brow Lamination + Lash Lifting · Mensagem: "Oi, Stefani! Quero o Black Glow da Black Beauty 💛"
+
+**Power Brow** — Texto: "✨ BLACK BEAUTY na Torres Beauty Academy — só até domingo, 30/11! / POWER BROW: Shadow ou Nano Brow / Sobrancelhas definidas e preenchidas para acordar pronta todos os dias. / De R$ 689 por R$ 500 (ou R$ 589 em até 10x) 💛 / Garanta com um sinal no Pix e agende seu horário. Toque em "Enviar mensagem" e fale com a Stefani."
+Título: Power Brow por R$ 500 — até 30/11 · Descrição: Shadow ou Nano Brow · Mensagem: "Oi, Stefani! Quero o Power Brow da Black Beauty 💛"
+
+**Black Essence** — Texto: "✨ BLACK BEAUTY na Torres Beauty Academy — só até domingo, 30/11! / BLACK ESSENCE: Micro de Sobrancelha + Micro Labial / Olhar com expressão e lábios com cor, todos os dias, sem maquiagem. / De R$ 1.380 por R$ 950 💛 / Garanta com um sinal no Pix e agende seu horário. Toque em "Enviar mensagem" e fale com a Stefani."
+Título: Olhar + lábios por R$ 950 · Descrição: Micro Sobrancelha + Micro Labial · Mensagem: "Oi, Stefani! Quero o Black Essence da Black Beauty 💛"
+
+**Capa Black Beauty** — Texto: "✨ BLACK BEAUTY: uma única vez no ano, combos imperdíveis na Torres Beauty Academy! / 💛 Black Glow (Brow Lamination + Lash Lifting) — R$ 250 / 💛 Power Brow (Shadow ou Nano Brow) — R$ 500 / 💛 Black Essence (Micro Sobrancelha + Micro Labial) — R$ 950 / Só até domingo, 30/11. Toque em "Enviar mensagem" e escolha o seu."
+Título: Black Beauty: combos até 30/11 · Descrição: Torres Beauty Academy · Mensagem: "Oi, Stefani! Quero saber dos combos da Black Beauty 💛"
