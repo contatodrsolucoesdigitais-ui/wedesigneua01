@@ -95,3 +95,13 @@ Posicionamentos automáticos. Mensagem pré-preenchida diferente por anúncio (s
 - Corrigir **"INSTARGRAM" → "INSTAGRAM"** na página 5.
 - O material está em preto e branco; para o anúncio, usar também **fotos ou vídeos coloridos de antes e depois reais**.
 - Conferir se os preços "De" são os praticados de verdade fora da promoção.
+
+## Estrutura final (25/11 a 30/11) — R$ 300 · Alegre e Guaçuí (ES)
+- Campanha: Engajamento → WhatsApp · orçamento por conjunto · até 30/11 23h59
+- Conjunto FRIO (R$ 35/dia): Alegre + Guaçuí, raio ~15 km cada, "pessoas que moram neste local", mulheres 20–55, Advantage+ ligado
+  - Anúncios: Combo 01 (R$ 250), Combo 02 (R$ 500 / 10x R$ 59), Combo 03 (R$ 950)
+- Conjunto QUENTE (R$ 15/dia): envolvidos com IG/FB 365 dias + contatos/conversas do WhatsApp
+  - Anúncios: Capa Black Beauty + Combo 02 + Combo 03
+- Mensagens pré-preenchidas: "Quero o Combo 01 da Black Beauty" / "Combo 02" / "Combo 03"
+- Atenção: antes/depois do Combo 02 pode ser reprovado pela Meta → ter versão sem antes/depois pronta
+- Diário: responder em até 5 min; reserva com sinal no Pix; agenda até dez/jan
