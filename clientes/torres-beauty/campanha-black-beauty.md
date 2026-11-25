@@ -105,3 +105,10 @@ Posicionamentos automáticos. Mensagem pré-preenchida diferente por anúncio (s
 - Mensagens pré-preenchidas: "Quero o Combo 01 da Black Beauty" / "Combo 02" / "Combo 03"
 - Atenção: antes/depois do Combo 02 pode ser reprovado pela Meta → ter versão sem antes/depois pronta
 - Diário: responder em até 5 min; reserva com sinal no Pix; agenda até dez/jan
+
+## Criado no Meta em 25/11 (conta Steffani Torres act_102534060097551) — PAUSADO
+- Campanha 120251569464800549 "BLACK BEAUTY | WhatsApp | ate 30-11" (Engajamento, orçamento por conjunto)
+- Conjunto 120251569468640549 "Alegre + Guacui | Mulheres | WhatsApp" — R$ 35/dia, Alegre 15 km + Guaçuí 10 km, mulheres 20+, Advantage+ ligado, conversas no WhatsApp, até 30/11 23h59
+- Conjunto 120251569473270549 "Cachoeiro | Mulheres | WhatsApp" — R$ 25/dia, Cachoeiro 10 km, mesmas regras
+- Página: Ateliê de Sobrancelhas - Steffani Torres (487632141444108)
+- Pendente: anúncios (aguardando as 3 artes), local "pessoas que moram neste local" no Gerenciador
